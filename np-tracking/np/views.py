@@ -82,3 +82,5 @@ def update_all_ttn(request):
             afterpayment_cost=i['afterpayment_cost'],
             phone_recipient=i['phone_recipient'])
     return redirect('home')
+
+    
